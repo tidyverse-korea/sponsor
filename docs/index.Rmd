@@ -1,6 +1,6 @@
 ---
 title: "useR! 2021 Korea"
-subtitle: "Request for Sponsors"
+subtitle: "Request for Sponsorship"
 author: 
   - .b[R 사용자회] 
 institute: ".small[.blue-medium[Tidyverse Korea]]"
