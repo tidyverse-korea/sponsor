@@ -1,4 +1,4 @@
-# useR! 2021 Korea 컨퍼러늣 스폰서
+# useR! 2021 Korea 컨퍼런스 스폰서
 
 **useR! Korea - 후원**
 
