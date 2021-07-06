@@ -1,0 +1,201 @@
+---
+title: "useR! 2021 Korea"
+subtitle: "Request for Sponsors"
+author: 
+  - .b[R 사용자회] 
+institute: ".small[.blue-medium[Tidyverse Korea]]"
+date: '2021년 11월 19일(금)'
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: 
+      - css/build-your-universe.css
+      - css/moffitt-xaringan.css    
+      - css/moffitt-xaringan-extra.css
+      - css/talk-base.css
+    seal: false
+    nature:
+      titleSlideClass: ["bottom", "left"]
+      slideNumberFormat: "%current%"
+      highlightStyle: atom-one-light
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: true
+editor_options: 
+  chunk_output_type: console
+---
+
+name: title
+class: left bottom hide-count no-logo
+background-color: #FBFCFF;
+
+
+```{r setup, echo=FALSE}
+source("library.R")
+# source("setup.R")$value
+
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width= 9, 
+  fig.height= 3.5, 
+  fig.retina= 3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE
+)
+
+
+```
+
+
+
+<!-- Title Slide -->
+
+<div class="city-360-rotate city-360-top"></div>
+<div class="city-360-rotate city-360-bottom"></div>
+
+.talk-meta[
+.talk-title[
+# `r rmarkdown::metadata$title`
+
+`r rmarkdown::metadata$subtitle`
+]
+
+.talk-author[
+`r paste(rmarkdown::metadata$author, collapse = " &middot; ")`<br>
+.moffitt-gray[`r paste(rmarkdown::metadata$institute, collapse = ", ")`]
+]
+
+.talk-date.moffitt-gray[
+`r knitr::knit(text = rmarkdown::metadata$date)`
+]
+]
+
+.talk-logo[] 
+
+```{css echo=FALSE}
+# /* Define title slide image or logo here */
+.talk-logo {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  bottom: 3%;
+  right: 2%;
+  background-image: url('figures/useR_Korea.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: contain;
+}
+```
+
+
+---
+class: hide-count no-logo no-border bg-black
+
+<div class="carina-nebula fullscreen-blur-fade-in"></div>
+
+---
+class: hide-count no-logo no-border bg-black carina-nebula-soft
+
+<div class="moons moons-1"><span class="moon-circle" style="background-color: #B1B1B1;">
+</span><span class="moons-text">플래티넘</span></div>
+
+<div class="moons moons-2"><span class="moon-circle" style="background-color: #C9B23E;">
+</span><span class="moons-text">골드</span></div>
+
+<div class="moons moons-3"><span class="moon-circle" style="background-color: #A6ADB3;">
+</span><span class="moons-text">실버</span></div>
+ 
+<div class="moons moons-4"><span class="moon-circle" style="background-color: #C77B30;">
+</span><span class="moons-text">브론즈</span></div>
+
+<div class="world world-it world-it1"></div>
+
+
+---
+class: hide-count no-logo no-border bg-black carina-nebula-soft
+
+<div class="moons moons-1-static moons-text-reveal"><span class="moon-circle" style="background-color: #B1B1B1;"></span><span class="moons-text">플래티넘</span></div>
+<div class="moons moons-2-static moons-text-reveal"><span class="moon-circle" style="background-color: #C9B23E;"></span><span class="moons-text">골드</span></div>
+<div class="moons moons-3-static moons-text-reveal"><span class="moon-circle" style="background-color: #A6ADB3;"></span><span class="moons-text">실버</span></div>
+<div class="moons moons-4-static moons-text-reveal"><span class="moon-circle" style="background-color: #C77B30;"></span><span class="moons-text"> 브론즈 </span></div>
+<div class="world world-it world-it1"></div>
+
+<!---------------------------- 플래티넘, 골드, 실버, 브론즈 ---------------------------------->
+
+---
+name: world-platinum
+class: hide-count no-logo no-border bg-black carina-nebula-soft fullscreen
+
+<div class="moons moons-1-static moons-text-reveal"><span class="moon-circle" style="background-color: #B1B1B1;"></span><span class="moons-text">플래티넘</span></div>
+<div class="moons moons-2-static moons-text-reveal"><span class="moon-circle" style="background-color: #C9B23E;"></span><span class="moons-text">골드</span></div>
+<div class="moons moons-3-static moons-text-reveal"><span class="moon-circle" style="background-color: #A6ADB3;"></span><span class="moons-text">실버</span></div>
+<div class="moons moons-4-static moons-text-reveal"><span class="moon-circle" style="background-color: #C77B30;"></span><span class="moons-text"> 브론즈 </span></div>
+<div class="world world-it world-it1"></div>
+
+<div class="world world-platinum world-platinum-entrance" style="width: 160px; height: 160px; top: 10%; left: 60%;"></div>
+<div class="world-label world-label-platinum white">
+후원금: &#8361; 10,000,000  <br> 
+<br> 
+&middot; useR! 컨퍼런스 발표 영상 로고 추가 <br> 
+&middot; 웹사이트 후원사 페이지 <br>
+&middot; 발표 전 30초 이내의 소개 영상 5회 노출 <br>
+&middot; 채용 관심있는 분 컨택 제공 <br> </div>
+
+---
+name: world-gold
+class: hide-count no-logo no-border bg-black carina-nebula-soft fullscreen
+
+<div class="moons moons-1-static moons-text-reveal"><span class="moon-circle" style="background-color: #B1B1B1;"></span><span class="moons-text">플래티넘</span></div>
+<div class="moons moons-2-static moons-text-reveal"><span class="moon-circle" style="background-color: #C9B23E;"></span><span class="moons-text">골드</span></div>
+<div class="moons moons-3-static moons-text-reveal"><span class="moon-circle" style="background-color: #A6ADB3;"></span><span class="moons-text">실버</span></div>
+<div class="moons moons-4-static moons-text-reveal"><span class="moon-circle" style="background-color: #C77B30;"></span><span class="moons-text"> 브론즈 </span></div>
+<div class="world world-it world-it1"></div>
+
+<div class="world world-gold"></div>
+<div class="world-label world-label-gold white">
+후원금: &#8361; 5,000,000  <br> 
+<br> 
+&middot; useR! 컨퍼런스 발표 영상 로고 추가 <br> 
+&middot; 웹사이트 후원사 페이지 <br>
+&middot; 발표 전 30초 이내의 소개 영상 3회 노출 <br>
+&middot; 채용 관심있는 분 컨택 제공 <br> </div>
+
+---
+name: world-silver
+class: hide-count no-logo no-border bg-black carina-nebula-soft fullscreen
+
+<div class="moons moons-1-static moons-text-reveal"><span class="moon-circle" style="background-color: #B1B1B1;"></span><span class="moons-text">플래티넘</span></div>
+<div class="moons moons-2-static moons-text-reveal"><span class="moon-circle" style="background-color: #C9B23E;"></span><span class="moons-text">골드</span></div>
+<div class="moons moons-3-static moons-text-reveal"><span class="moon-circle" style="background-color: #A6ADB3;"></span><span class="moons-text">실버</span></div>
+<div class="moons moons-4-static moons-text-reveal"><span class="moon-circle" style="background-color: #C77B30;"></span><span class="moons-text"> 브론즈 </span></div>
+<div class="world world-it world-it1"></div>
+
+
+<div class="world world-silver"></div>
+<div class="world-label world-label-silver white">
+후원금: &#8361; 3,000,000  <br> 
+<br> 
+&middot; useR! 컨퍼런스 발표 영상 로고 추가 <br> 
+&middot; 웹사이트 후원사 페이지 </div>
+
+
+---
+name: world-bronze
+class: hide-count no-logo no-border bg-black carina-nebula-soft fullscreen
+
+<div class="moons moons-1-static moons-text-reveal"><span class="moon-circle" style="background-color: #B1B1B1;"></span><span class="moons-text">플래티넘</span></div>
+<div class="moons moons-2-static moons-text-reveal"><span class="moon-circle" style="background-color: #C9B23E;"></span><span class="moons-text">골드</span></div>
+<div class="moons moons-3-static moons-text-reveal"><span class="moon-circle" style="background-color: #A6ADB3;"></span><span class="moons-text">실버</span></div>
+<div class="moons moons-4-static moons-text-reveal"><span class="moon-circle" style="background-color: #C77B30;"></span><span class="moons-text"> 브론즈 </span></div>
+<div class="world world-it world-it1"></div>
+
+
+<div class="world world-bronze"></div>
+<div class="world-label world-label-bronze white">
+후원금: &#8361; 1,000,000  <br> 
+<br> 
+&middot; useR! 컨퍼런스 발표 영상 로고 추가 <br> 
+&middot; 웹사이트 후원사 페이지 </div>
