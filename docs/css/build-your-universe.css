@@ -24,22 +24,22 @@
   height: 200px;
   top: 40%;
   left: 20%;
-  background-color: #14608d
+  background-color: #ffffff
 }
 .world-it::before {
-  content: "useR!";
+  content: "R 컨퍼런스";
   color: #fff;
-  font-size: 2.75em;
+  font-size: 2.0em;
   position: absolute;
-  top: -100px;
-  left: -100px
+  top: -70px;
+  left: -150px
 }
 .world-150 {
   width: 150px;
   height: 150px
 }
 .world-it1 {
-  background-image: url(../figures/useR_Korea_half.png); 
+  background-image: url(../figures/koRea_vertical_logo_resized.png); 
 
   background-repeat: no-repeat
 }
